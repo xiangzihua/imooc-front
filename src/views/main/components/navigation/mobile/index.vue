@@ -38,7 +38,7 @@
 </template>
 
 <script setup>
-import { defineProps, ref, watch, onBeforeUpdate } from 'vue'
+import { ref, watch, onBeforeUpdate } from 'vue'
 import { useScroll } from '@vueuse/core'
 import menuVue from '../../menu/index.vue'
 

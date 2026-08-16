@@ -24,7 +24,7 @@
 
 <script setup>
 import { useScrollLock, useVModel } from '@vueuse/core'
-import { watch, defineProps, defineEmits } from 'vue'
+import { watch } from 'vue'
 
 const props = defineProps({
   modelValue: {

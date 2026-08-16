@@ -1,5 +1,5 @@
 import { computed } from 'vue'
-import { PC_DERVICE_WIDTH } from '@/constans'
+import { PC_DERVICE_WIDTH } from '@/constants'
 import { useWindowSize } from '@vueuse/core'
 
 const { width } = useWindowSize()
