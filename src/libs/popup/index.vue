@@ -13,7 +13,7 @@
         <div
           v-if="isOpen"
           v-bind="$attrs"
-          class="w-screen bg-white z-50 fixed bottom-0"
+          class="w-screen bg-white dark:bg-zinc-900 z-50 fixed bottom-0"
         >
           <slot />
         </div>

@@ -1,4 +1,7 @@
 module.exports = {
+  // 手动切换暗黑模式
+  darkMode: 'class',
+  // Tailwind 应用范围
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
@@ -14,7 +17,8 @@ module.exports = {
         xl: ['0.65rem', '0.75rem']
       },
       boxShadow: {
-        '1-white': '-10px 0 10px white'
+        '1-white': '-10px 0 10px white',
+        'l-zinc': '-10px 0 10px #18181b'
       },
       colors: {
         main: '#f44c58',
